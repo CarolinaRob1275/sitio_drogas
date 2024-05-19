@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi página con BINLOGO</title>
+    <link rel="stylesheet" href="../CSS/alcohol.css"> <!-- Vincula el archivo CSS -->
+</head>
+
+<body>
+
+    <header>
+        
+            <h1 style="font-size: 4em;"><img id="logo" src="../imagenes/binlogo3.png"
+                    alt="BINLOGO" />ALCOHOL</h1> <!-- Tamaño del encabezado duplicado -->
+        
+        <div class="buscador"></div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="../HTML/index.html">Menu</a></li>
+            <li><a href="../HTML/fentanilo.html">Fentanilo</a></li>
+            <li><a href="../HTML/mentanfetaminas.html">Metanfetamina</a></li>
+            <li><a href="../HTML/vapeadores.html">Vapeadores</a></li>
+            <li><a href="../HTML/marihuana.html">Marihuana</a></li>
+            <li><a href="../HTML/tabaco.html">Tabaco</a></li>
+            <li><a href="../HTML/benzodiacepinas.html">Benzodiacepinas</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <aside id="tabla_contenidos">
+            <h2>Tabla de Contenidos</h2>
+            <ul>
+                <li><a href="#Que_es_el_alcohol">¿Qué es el alcohol?</a></li>
+                <li><a href="#Como_se_una_el_alcohol">¿Cómo se usa el alcohol?</a></li>
+                <li><a href="#Efectos_inmediatos_al_consumirlo">Efectos inmediatos al consumirlo</a></li>
+                <li><a href="#Consecuencias_al_consumirlo">Consecuencias al consumirlo</a></li>
+                <li><a href="#alcohol_¡cuidate,_no_te_dañes!">ALCOHOL ¡CUÍDATE, NO TE DAÑES!</a></li>
+            </ul>
+        </aside>
+
+        <main>
+            <section id="Que_es_el_alcohol">
+                <h2>¿QUÉ ES EL ALCOHOL?</h2>
+                <p>
+                    El alcohol es una droga que deprime el sistema nervioso central, es decir, que enlentece las
+                    funciones del cerebro. El alcohol afecta a la capacidad de autocontrol, por lo que puede confundirse
+                    con un estimulante.
+                    El principal componente de las bebidas alcohólicas es el etanol o alcohol etílico, que tienen
+                    diferente concentración según su proceso de elaboración.
+                    Las bebidas alcohólicas pueden ser:
+                </p>
+                <h3>Propósito</h3>
+                <p>Presentar el concepto de droga o sustancia psicoactiva, así como su clasificación con base en los
+                    efectos ocasionados en el cuerpo.</p>
+                <div class="imagen_izquierda">
+                    <img id="drogas1" src="../imagenes/alcohol-alcohol.jpg" />
+                </div> <!-- Imagen relacionada a la izquierda -->
+                <h2 id="Como_se_una_el_alcohol">¿CÓMO SE USA EL ALCOHOL?</h2>
+                <p>El alcohol se ingiere, generalmente, por vía oral, aunque también puede inyectarse. El tiempo que
+                    pasa entre el último trago hasta que se alcanzan las concentraciones máximas en la sangre varía de
+                    25 a 90 minutos.</p>
+            </section>
+
+            <section id="clasificacion_drogas">
+                <h2 id="Efectos_inmediatos_al_consumirlo">EFECTOS INMEDIATOS AL MOMENTO DE CONSUMIRLO</h2>
+                <p>
+                    El alcohol ingerido en una bebida es absorbido en el aparato digestivo, desde donde pasa a la
+                    circulación sanguínea en la que puede permanecer hasta 18 horas.
+                    Pocos minutos después de haber bebido, pueden aparecer una serie de efectos cuya manifestación varía
+                    según la cantidad que se haya bebido y las características de la persona.
+                    Por orden de aparición en el tiempo y en relación con la concentración en el organismo, estos
+                    efectos son los siguientes:
+                    <UL>
+                        <li>Desinhibición</li>
+                        <li>Euforia</li>
+                        <li>Relajación</li>
+                        <li>Aumento de la sociabilidad</li>
+                        <li>Dificultad para hablar</li>
+                        <li>Dificultar para asociar ideas</li>
+                        <li>Descoordinación motora</li>
+                        <li>Intoxicación aguda</li>
+                    </UL>
+                </p>
+                <img class="imagenes" src="../imagenes/efectos-alcohol.jpg">
+            <!-- Resto de la información sobre estimulantes -->
+            <h2 id=" Consecuencias_al_consumirlo">CONSECUENCIAS POR SU CONSUMO</h2>
+                <p>
+                    <UL>
+                        <li>Gastritis y úlcera estomacal.</li>
+                        <li>Enfermedades cardiacas.</li>
+                        <li>Afecciones graves de hígado y cerebro.</li>
+                        <li>Aumento de peso corporal.</li>
+                        <li>Dolores de cabeza y estómago intensos.</li>
+                    </UL>
+                </p>
+                <img class="imagenes" src="../imagenes/consecuencias-alcohol.jpg">
+                <h1 id="alcohol_¡cuidate,_no_te_dañes!">ALCOHOL ¡CUÍDATE, NO TE DAÑES!</h1>
+                <!-- Resto de la información sobre fármacos de uso médico -->
+                <h1>Encuentra ayuda para superar la adicción</h1>
+
+                <form id="formulario-centros">
+                    <div class="contenedor-datos-personales">
+                        <h2>Datos personales</h2>
+                        <label for="nombre">Nombre completo:</label>
+                        <input type="text" id="nombre" name="nombre" required>
+
+                        <label for="apellidos">Apellidos:</label>
+                        <input type="text" id="apellidos" name="apellidos" required>
+
+                        <label for="edad">Edad:</label>
+                        <input type="number" id="edad" name="edad" min="18" required>
+
+                        <label for="fechaNacimiento">Fecha de nacimiento:</label>
+                        <input type="date" id="fechaNacimiento" name="fechaNacimiento" required>
+
+                        <label for="direccion">Estado:</label>
+                        <input type="text" id="direccion" name="direccion" required>
+
+                        <label for="codigoPostal">Código postal:</label>
+                        <input type="number" id="codigoPostal" name="codigoPostal" required>
+                    </div>
+
+                    <div class="contenedor-datos-adiccion">
+                        <h2>Datos sobre la adicción</h2>
+                        <label for="tiempoAdiccion">¿Cuánto tiempo llevas consumiendo alcóhol (meses)?</label>
+                        <input type="number" id="tiempoAdiccion" name="tiempoAdiccion" min="1" required>
+
+                    </div>
+
+                    <button type="submit" onclick="adiccion()">Buscar centros</button>
+                </form>
+            </section>
+        </main>
+    </div>
+
+    <footer>
+        <p>Autor: Tristan Valentin Arzate Cayetano, Karen Lizet Carbajal García, Ángel Martínez Castillo, Carlos Manuel
+            Rangel Balderas, Carolina Robles Martínez, Fernando Vargas Pérez</p>
+        <p>Escuela: Colegio de Estudios Científicos y Tecnológicos del Estado de México Plantel Jiquipilco</p>
+        <p>Docente: José Alfredo Zúñiga Lara</p>
+        <p>Recuperado de: <a
+                href="https://acrobat.adobe.com/id/urn:aaid:sc:VA6C2:2a428eb6-b3f1-4c7c-898a-4b16249d1074">https://acrobat.adobe.com/id/urn:aaid:sc:VA6C2:2a428eb6-b3f1-4c7c-898a-4b16249d1074</a>
+        </p>
+        <hr>
+        <p>©2007-2024 Todos los derechos reservados. Binlogo® es una marca registrada de el equipo 1 (403) Tecnicos en
+            programación. Adroid y su logotipo son marcas comerciales de Android Inc. La lap play store es una marca de
+            servicio de Andriod Inc. Google Play y su logotipo son marcas comerciales de Google Inc. Privacidad |
+            Condiciones | Normativa | Preferencias de cookies</p>
+
+        <!-- Redes sociales -->
+        <div class="redes-sociales">
+            <a href="https://es-la.facebook.com/"><img src="../imagenes/facebook.jpg" WIDTH="50"
+                    HEIGHT="50" /></a>
+            <a href="https://www.whatsapp.com/?lang=es_LA"><img src="../imagenes/whatsapp.jpg" WIDTH="50"
+                    HEIGHT="50" /></a>
+            <a href="https://www.instagram.com/"><img src="../imagenes/instagram.jpg" WIDTH="50"
+                    HEIGHT="50" /></a>
+        </div>
+    </footer>
+
+    <script src="../JAVA/alcohol.js"></script> <!-- Vincula el archivo JavaScript -->
+</body>
+
+</html>
